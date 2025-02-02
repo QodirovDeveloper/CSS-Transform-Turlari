@@ -1,0 +1,159 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  display: flex;
+  gap: 20px;
+  background: #1C1E39;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+.container
+{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+  width: 100%;
+}
+.big
+{
+  display: flex;
+  gap: 200px;
+}
+.line
+{
+  display: flex;
+}
+.line-right
+{
+  display: flex;
+}
+.box-one
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 17px;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box:hover
+{
+  background: #2dff9d;
+  color: black;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.booox:hover
+{
+  background: #ff2d2d;
+  color: black;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.box
+{
+  transition: .4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #20A269;
+  background: #20A269;
+  border-radius: 10px;
+}
+.title-box
+{
+  transition: .4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  margin-left: 20px;
+  padding: 6px;
+  border: 1px solid #9a9a9a;
+  background: #9a9a9a;
+  border-radius: 10px;
+}
+.booox
+{
+  transition: .4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #a22020;
+  background: #a22020;
+  border-radius: 10px;
+}
+.box1:hover
+{
+  transform: scale(1.2);
+}
+.box-1:hover
+{
+  transform: scale(.8);
+}
+.box2:hover
+{
+  transform: scaleX(1.5);
+}
+.box-2:hover
+{
+  transform: scaleX(.5);
+}
+.box3:hover
+{
+  transform: rotate(45deg);
+}
+.box-3:hover
+{
+  transform: rotate(-45deg);
+}
+.box4:hover
+{
+  transform: skewX(30deg);
+}
+.box-4:hover
+{
+  transform: skew(-30deg);
+}
+.box5:hover
+{
+  transform: translate(15px, 25px)
+}
+.box-5:hover
+{
+  transform: translate(-15px, -25px)
+}
+.box6:hover
+{
+  transform: skew(30deg, 20deg);
+}
+.box-6:hover
+{
+  transform: skew(-30deg, -20deg);
+}
+.box7:hover
+{
+  transform: matrix(1, -0.5, 0.5, 0.4, 0.5, 0.7);
+}
+.box-7:hover
+{
+  transform: matrix(1, 1, -1, 0.4, 0.5, 0.7);
+}
